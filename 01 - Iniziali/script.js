@@ -4,6 +4,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+/**
+ * funzione che restituisce un array con le iniziali dei nomi
+ * @param {array} nomi
+ * @returns {array}
+ */
 const FirstLetterName = (nomi) => {
     let initials = [];
     for(let i = 0; i < nomi.length; i++){
